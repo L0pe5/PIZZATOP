@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdc1c1;
+    color: #333;
+}
+
+header {
+    background-color: #f3d31b; /* Dourado */
+    color: #8B0000; /* Vermelho escuro */
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8B0000; /* Vermelho escuro */
+    font-weight: bold;
+}
+
+main {
+    padding: 30px;
+}
+
+.home {
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2024/04/23/09/32/ai-generated-8714517_1280.jpg');
+    background-size: cover;
+    color: #fff;
+    font-family: 'Georgia', serif;
+}
+
+.combo, .pizza, .bebida {
+    border: 1px solid #ddd;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #FFD700; /* Dourado */
+    color: #8B0000; /* Vermelho escuro */
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #8B0000; /* Vermelho escuro */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFD700; /* Dourado */
+    color: #8B0000; /* Vermelho escuro */
+}
